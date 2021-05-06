@@ -21,7 +21,7 @@
         </div>
 
         <div class="immage">
-          <img :src="photos[positionPhoto]" alt="">
+          <img :src="photos[positionPhoto]" alt="" :autoplay="true">
         </div>
 
         <div class="nav">
@@ -33,7 +33,7 @@
           ></i>
         </div>
 
-        <div class="arrow next" @click="nextPhote">
+        <div class="arrow next" @click="nextPhoto">
           <i class="fas fa-chevron-right"></i>
         </div>
 
